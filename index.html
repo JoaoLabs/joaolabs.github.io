@@ -7,10 +7,12 @@
   <title>Hello, my name is João Paulo</title>
 </head>
 <body>
-<script>
-  if (window.location.href.indexOf('http://jpcmf.github.io') === 0) {
-    window.location.href = 'https://www.joaolabs.tk';
-  }
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.href.indexOf('http://jpcmf.github.io') === 0) {
+      window.location.href = 'https://www.joaolabs.tk';
+    }
+  }, false);
 </script>
 </body>
 </html>
